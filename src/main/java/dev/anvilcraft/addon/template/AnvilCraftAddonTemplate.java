@@ -6,6 +6,7 @@ import dev.anvilcraft.addon.template.data.ModDatagen;
 import dev.anvilcraft.addon.template.init.AddonBlocks;
 import dev.anvilcraft.addon.template.init.AddonItemGroups;
 import dev.anvilcraft.addon.template.init.AddonItems;
+import dev.anvilcraft.addon.template.init.AddonSounds;
 import dev.anvilcraft.lib.config.ConfigManager;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
@@ -25,6 +26,7 @@ public class AnvilCraftAddonTemplate {
         AddonItemGroups.register(modEventBus);
         AddonBlocks.register();
         AddonItems.register();
+        AddonSounds.SOUND_EVENTS.register(modEventBus);
         ModDatagen.init();
     }
 

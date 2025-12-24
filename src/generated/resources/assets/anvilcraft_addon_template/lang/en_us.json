@@ -9,6 +9,7 @@
   "anvilcraft_addon_template.configuration.section.anvilcraft_addon_template.common.toml.title": "Anvilcraft Addon Template Common Configuration",
   "anvilcraft_addon_template.configuration.title": "Anvilcraft Addon Template Configuration",
   "block.anvilcraft_addon_template.example_block": "Example Block",
+  "item.anvilcraft_addon_template.doom_fist": "Doom Fist",
   "item.anvilcraft_addon_template.example_item": "Example Item",
   "itemGroup.anvilcraft_addon_template.addon_items": "AnvilCraft: Addon Template"
 }
